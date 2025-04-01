@@ -29,9 +29,9 @@ Usage:
 Download the Script
 Save as mangili.sh
 Make it Executable
-chmod +x mangili.sh
+chmod +x Mskin.sh
 Run the Script In the terminal:
-./mangili.sh
+./Mskin.sh
 
 Follow the Prompts
 Enter your name, select your skin type, and get your personalized routine.

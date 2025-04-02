@@ -26,7 +26,7 @@ read knows_skin_type
 
 if [[ "$knows_skin_type" == "no" ]]; then
     echo "No worries! Take this quick 5-7 minute skin type test and come back:"
-    echo "https://www.example.com/skin-type-test"
+    echo "https://www.instagram.com/haninfluence?igsh=Yjdnemo5NHQ1dm1j&utm_source=qr"
     exit 0
 fi
 

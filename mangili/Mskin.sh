@@ -31,14 +31,14 @@ if [[ "$knows_skin_type" == "no" ]]; then
 fi
 
 # Ask for skin type
-echo "What is your skin type? (dry, sensitive, combination, acne-prone, mature, normal, oily)"
+echo "What is your skin type? (Dry, Oily, Sensitive, Combination, Acne-prone, Mature, Normal)"
 read skin_type
 
 # Define product options for different skin types
 
 # Dry Skin Routine
-dry_cleansers=("Heimish All Clean Balm" "Iunik Calendula Complete Cleansing Balm")
-dry_toners=("Klairs Supple Preparation Unscented Toner" "Isntree Hyaluronic Acid Toner")
+dry_cleansers=("Heimish All Clean Balm" "Dr Althea Pure Grinding")
+dry_toners=("Jumiso Hyaluronnic Acid Toner" "Medicube AGE-R Gluthatione Toner")
 dry_essences=("Missha Time Revolution The First Treatment Essence" "Pyunkang Yul Essence Toner")
 dry_serums=("COSRX Advanced Snail 96 Mucin Power Essence" "Iunik Propolis Vitamin Synergy Serum")
 dry_moisturizers=("CeraVe Moisturizing Cream" "Etude House SoonJung 2x Barrier Intensive Cream")

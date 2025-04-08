@@ -59,5 +59,4 @@ Ensure you're running the script in a compatible Bash shell.
 
 If the skin type input is missed, the script will ask again.
 
-License
-Open-source; feel free to modify and share. Give credit if distributing.
+

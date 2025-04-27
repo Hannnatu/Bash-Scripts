@@ -1,6 +1,5 @@
 Mangili Skincare Routine Generator Script
 
-Overview
 The Mangili script generates personalized skincare routines using K-beauty products for 7 skin types: 
 Dry, Sensitive, Combination, Acne-Prone, Mature/Aging, Normal, and Oily. 
 It offers tailored day and night routines with two product options for each step and ensures variety by randomizing product selections.

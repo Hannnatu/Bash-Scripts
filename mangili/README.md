@@ -1,61 +1,28 @@
-Mangili Skincare Routine Generator Script
+"Mskin Routine Generator Script" 
 
-The Mangili script generates personalized skincare routines using K-beauty products for 7 skin types: 
-Dry, Sensitive, Combination, Acne-Prone, Mature/Aging, Normal, and Oily. 
-It offers tailored day and night routines with two product options for each step and ensures variety by randomizing product selections.
+A Bash script that creates personalized skincare routines based on K-beauty products for seven skin types: Dry, Sensitive, Combination, Acne-Prone, Mature/Aging, Normal, and Oily. 
 
-Features
-Tailored Routines: 
-Generates routines for all 7 skin types.
-Skin Test:
-If you do not know your skin type, there is a link you can follow to do a home test.
+### Key Features:
+- **Tailored Routines**: Generates both day and night routines, offering variety by randomizing product selections.
+- **Skin Test**: Provides a link to determine skin type at home.
+- **Wide Product Range**: Includes items from popular K-beauty brands like Heimish, COSRX, Klairs, and more.
+- **Randomized Recommendations**: Offers different product options each time the script is run.
+- **Ease of Use**: Simple steps to run and interact with the script.
 
-Wide Product Range: 
-Includes products from K-beauty brands like Heimish, COSRX, Klairs, Iunik, and more.
+### Requirements:
+- Works on Linux, macOS, and Windows (via WSL or Git Bash).
+- No extra packages required—uses native Bash randomization.
 
-Randomized Recommendations: 
-Users receive different product options each time they run the script.
+### Usage:
+1. Download the script and save it as `mskin.sh`.
+2. Make it executable with `chmod +x mskin.sh`.
+3. Run it via `./mskin.sh` and follow prompts to enter your name, select your skin type, and generate your routine.
 
-Easy to Use: 
-Run the script, select your skin type, and get a customized routine.
+### Customization:
+- Users can modify product lists for each skin type by editing the script.
 
-Requirements
-Bash Shell: Works on Linux, macOS, and Windows (WSL or Git Bash).
+### Troubleshooting:
+- Ensure the script runs in a compatible Bash shell.
+- If input is missed, the script will re-prompt for the skin type.
 
-No Extra Packages: Uses native bash randomization ($RANDOM).
-
-Usage:
-Download the Script
-Save as mangili.sh
-Make it Executable
-chmod +x Mskin.sh
-Run the Script In the terminal:
-./Mskin.sh
-
-Follow the Prompts
-Enter your name, select your skin type, and get your personalized routine.
-
-Skin Types
-Dry: Hydrating products.
-
-Sensitive: Gentle, soothing products.
-
-Combination: Balancing products.
-
-Acne-Prone: Acne-targeting products.
-
-Mature/Aging: Anti-aging products.
-
-Normal: Balanced products.
-
-Oily: Oil-controlling products.
-
-Customization
-You can modify the product lists for each skin type by editing the script.
-
-Troubleshooting
-Ensure you're running the script in a compatible Bash shell.
-
-If the skin type input is missed, the script will ask again.
-
-
+This README provides detailed instructions for using and customizing the script, along with information about supported skin types and troubleshooting tips.

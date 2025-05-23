@@ -1,13 +1,12 @@
 #!/bin/bash
-
-# Function to pick two random products for each routine without repeating options
+#Function to pick two random products for each routine without repeating options
 pick_products() {
     local products=("$@")
     local count=${#products[@]}
     local rand1=$((RANDOM % count))
     local rand2=$((RANDOM % count))
 
-    # Ensure products are not repeated
+    #Just to ensure products are not repeated
     while [ $rand2 -eq $rand1 ]; do
         rand2=$((RANDOM % count)) 
     done
@@ -26,7 +25,7 @@ read knows_skin_type
 
 if [[ "$knows_skin_type" == "no" ]]; then
     echo "No worries! Take this quick 5-7 minute skin type test and come back:"
-    echo "https://www.example.com/skin-type-test"
+    echo "https://www.skintest.com/skin-type-test" # can add a video link to your code here
     exit 0
 fi
 
@@ -36,7 +35,7 @@ read skin_type
 
 # Define product options for different skin types
 
-# Dry Skin Routine
+# Dry Skin Routine Products from several korean brands
 dry_cleansers=("Heimish All Clean Balm" "Iunik Calendula Complete Cleansing Balm")
 dry_toners=("Klairs Supple Preparation Unscented Toner" "Isntree Hyaluronic Acid Toner")
 dry_essences=("Missha Time Revolution The First Treatment Essence" "Pyunkang Yul Essence Toner")
